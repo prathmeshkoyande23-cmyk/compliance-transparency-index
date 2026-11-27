@@ -83,7 +83,7 @@ The overall score uses only dimensions that have data, each counted at weight ×
 
 The compiled dataset covers 20 banks (10 public sector, 10 private) with:
 
-- **74 penalty records** (70 RBI, 3 FIU-IND, 1 IRDAI) and 47 distinct source links. Two entries are still marked "source link pending verification".
+- **79 penalty records** (75 RBI, 3 FIU-IND, 1 IRDAI) and 56 distinct source links. Two entries are still marked "source link pending verification".
 - **NPA for two or three quarters per bank** (Mar 2026, Jun 2026, and Sep 2026 for all 20 banks, as of 27 November 2026), each with a source link.
 - **One bank's complaint disclosure** (grievance), shown but not scored.
 
