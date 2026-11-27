@@ -45,7 +45,7 @@ The full schema, with every field in use, is demonstrated in [`src/data/banks.sa
 | NPA | Mar 2026 and Jun 2026 for all 20 banks; Sep 2026 for all 20 banks (as of 27 Nov 2026) |
 | Customer grievance | One bank, shown but not scored |
 
-Counts in the compiled dataset: 20 banks, 70 penalty records (66 RBI, 3 FIU-IND, 1 IRDAI), 47 distinct penalty source links.
+Counts in the compiled dataset: 20 banks, 74 penalty records (70 RBI, 3 FIU-IND, 1 IRDAI), 47 distinct penalty source links.
 
 Complaint counts are not comparable across banks: some banks net out same-day or duplicate complaints, others report raw counts.
 
