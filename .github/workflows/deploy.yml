@@ -1,14 +1,16 @@
 name: Deploy demo to GitHub Pages
 
-# Manual only. Nothing is published until you run this workflow yourself.
+# Publishes the demo on every push to main, and can also be run by hand.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       dataset:
-        description: "sample = fictional data (safe default). real = the compiled bank dataset."
+        description: "sample = fictional data. real = the compiled bank dataset (default for this demo)."
         type: choice
         options: [sample, real]
-        default: sample
+        default: real
 
 permissions:
   contents: read
@@ -32,7 +34,7 @@ jobs:
       - run: npm run build
         env:
           VITE_BASE: /${{ github.event.repository.name }}/
-          VITE_DATASET: ${{ inputs.dataset }}
+          VITE_DATASET: ${{ inputs.dataset || 'real' }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
