@@ -1,0 +1,22 @@
+{
+  "name": "compliance-transparency-index",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A prototype transparency index for the compliance record of Indian banks, built on public data.",
+  "type": "module",
+  "engines": { "node": ">=20.19" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
+  }
+}
